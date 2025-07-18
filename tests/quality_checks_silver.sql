@@ -81,8 +81,6 @@ PRINT '==========================================='
 
 PRINT 'All checks on silver.crm_sales_details'
 PRINT '------------------------------------------'
-SELECT * from silver.crm_sales_details
-SELECT * from bronze.crm_sales_details
 
 -- Check for Invalid Dates
 SELECT *
@@ -153,7 +151,6 @@ PRINT '==========================================='
 PRINT 'All checks on silver.erp_loc_a101'
 PRINT '------------------------------------------'
 
-select * from silver.erp_loc_a101
 -- Check for Duplicate Records
 SELECT
     cid 
